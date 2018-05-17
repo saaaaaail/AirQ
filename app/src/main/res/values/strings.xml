@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AirQ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open_source">• 和风天气提供天气和空气质量实况数据\n• 百度定位提供定位服务\n• 聚合数据提供历史空气质量数据\n• 酷我天气\n• 假装看天气https://github.com/li-yu/FakeWeather\n
+    </string>
+
+    <string name="contact_me">• @saaaaaail\n• 649014081@qq.com\n• 15172530176
+    </string>
+
+    <string name="menu_action_refresh">刷新</string>
+    <string name="menu_action_share">分享</string>
+    <string name="menu_action_copy">复制URL</string>
+    <string name="menu_action_openwith">其他方式打开</string>
+
+</resources>

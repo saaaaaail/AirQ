@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/gap"
+        android:layout_width="wrap_content"
+        android:layout_height="160pt"
+
+        android:textColor="#fff"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aqi指数："
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/nowAQI_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="#fff"
+            android:textSize="60sp"/>
+
+        <TextView
+            android:id="@+id/air_qlty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <View android:layout_height="5px" android:background="#fff" android:layout_width="50pt"
+        android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/nowtmp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/cond_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gap1"
+        android:layout_width="wrap_content"
+        android:layout_height="20pt"
+
+        android:textColor="#fff"
+        />
+    <View android:layout_height="1px" android:background="#fff" android:layout_width="fill_parent">
+
+    </View>
+    <TextView
+        android:id="@+id/gap3"
+        android:layout_width="wrap_content"
+        android:layout_height="20pt"
+
+        android:textColor="#fff"
+        />
+</LinearLayout>

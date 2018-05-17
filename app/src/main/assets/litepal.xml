@@ -1,0 +1,14 @@
+<litepal>
+
+    <dbname value="airQ"/>
+
+    <version value="1" />
+
+    <list>
+        <mapping class="com.sail.airq.db.Province"/>
+        <mapping class="com.sail.airq.db.County"/>
+        <mapping class="com.sail.airq.db.City"/>
+        <mapping class="com.sail.airq.db.AirDaily"/>
+        <mapping class="com.sail.airq.db.AirHourly"/>
+    </list>
+</litepal>
